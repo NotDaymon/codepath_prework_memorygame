@@ -47,7 +47,36 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src="http://g.recordit.co/7erE1C0AaL.gif" style="width:200px;">
+
+<details>
+  <summary>Overall Showcase</summary>
+   <img src="http://g.recordit.co/7erE1C0AaL.gif" style="width:200px;">
+</details>
+<details>
+  <summary>Difficulty Showcase</summary>
+   <img src="http://g.recordit.co/8h5y0SL9Xd.gif" style="width:200px;">
+</details>
+<details>
+  <summary>Speed Showcase</summary>
+   <img src="" style="width:200px;">
+</details>
+<details>
+  <summary>Speed Showcase</summary>
+   <img src="" style="width:200px;">
+</details>
+<details>
+  <summary>Timer Showcase</summary>
+   <img src="" style="width:200px;">
+</details>
+<details>
+  <summary>Lifes/Last Straw Showcase</summary>
+   <img src="" style="width:200px;">
+</details>
+<details>
+  <summary>Winning Showcase</summary>
+   <img src="" style="width:200px;">
+</details>
+
 
 ## Reflection Questions
 
