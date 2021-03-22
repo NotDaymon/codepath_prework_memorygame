@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Daymon Littrell - Pre Work</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="/style.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="/script.js" defer></script>
+   </head>
+   <body>
+      <h1>Light & Sound Memory Game</h1>
+      <p>
+         Repeat the pattern back to win the game!
+      </p>
+      <div id="options" style="border-style: solid; background: #5a5a5a; padding: 1rem; margin:1rem;">
+         <b>Options</b>
+         <div id="difficultySelection">
+            <label for="difficulty">Difficulty</label>
+            <select name="difficulty" id="difficulty">
+               <option selected="selected">Easy</option>
+               <option>Medium</option>
+               <option>Hard</option>
+            </select>
+            <label id="whatsDifficulty" data-toggle="tooltip" data-placement="right" title="Difficulty affects the amount of nodes you have to choose from [ Easy = 3 Nodes | Medium = 6 Nodes | Hard = 9 Nodes ]"><b><i>?</i></b></label>
+         </div>
+         <div id="toggleNeverending">
+            Neverending <input id="neverending" type="checkbox"> <label data-toggle="tooltip" data-placement="right" title="The game will go on forever! See how high you can go :)"><b><i>?</i></b></label>
+         </div>
+         <div id="toggleSpeed">
+            Speed <input id="speed" type="checkbox"> <label data-toggle="tooltip" data-placement="right" title="Increase the playback speed exponentially, playback go brrrr"><b><i>?</i></b></label>
+         </div>
+         <div id="toggleTimer">
+            Timer <input id="timer" type="checkbox"> <label data-toggle="tooltip" data-placement="right" title="You're now timed! You better click that node quic-"><b><i>?</i></b></label>
+         </div>
+         <div id="toggleLastStraw">
+            Last Straw <input id="lastStraw" type="checkbox"> <label data-toggle="tooltip" data-placement="right" title="You get one life! Imagine needing more than one, smh"><b><i>?</i></b></label>
+         </div>
+      </div>
+      <div id="actions" style="border-style: solid; background: #5a5a5a; padding: 1rem; margin:1rem;">
+         <p>
+            <b>Time Remaining: </b>
+            <text id="timeLeft">0:00</text>
+         </p>
+         <p>
+            <b>HighScore: </b> 
+            <text id="highscore">0</text>
+            <b>Score: </b> 
+            <text id="score">0</text>
+         </p>
+         <p>
+            <b>Lifes left: </b> 
+            <text id="lifes">3</text>
+         </p>
+         <button id="startBtn" class="btn btn-success" onclick="startGame()" style="margin-bottom:1rem;">
+         Start
+         </button>
+         <button id="stopBtn" class="btn btn-danger hidden" onclick="stopGame()">
+         Stop
+         </button>
+      </div>
+      <div id="gameButtonArea">
+      </div>
+   </body>
+</html>
