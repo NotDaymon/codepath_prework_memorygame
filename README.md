@@ -58,23 +58,19 @@ Here's a walkthrough of implemented user stories:
 </details>
 <details>
   <summary>Speed Showcase</summary>
-   <img src="" style="width:200px;">
-</details>
-<details>
-  <summary>Speed Showcase</summary>
-   <img src="" style="width:200px;">
+   <img src="http://g.recordit.co/sW1AVaDzfk.gif" style="width:200px;">
 </details>
 <details>
   <summary>Timer Showcase</summary>
-   <img src="" style="width:200px;">
+   <img src="http://g.recordit.co/ERoWxCz0kl.gif" style="width:200px;">
 </details>
 <details>
   <summary>Lifes/Last Straw Showcase</summary>
-   <img src="" style="width:200px;">
+   <img src="http://g.recordit.co/RjlVW63nTQ.gif" style="width:200px;">
 </details>
 <details>
   <summary>Winning Showcase</summary>
-   <img src="" style="width:200px;">
+   <img src="http://g.recordit.co/3XBf4bFBtd.gif" style="width:200px;">
 </details>
 
 
@@ -108,7 +104,7 @@ Here's a walkthrough of implemented user stories:
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright Daymon Littrell
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
