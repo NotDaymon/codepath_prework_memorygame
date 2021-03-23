@@ -4,7 +4,7 @@
 
 Submitted by: **Daymon Littrell**
 
-Time spent: **4** hour spent in total
+Time spent: **4** hours spent in total
 
 [Link to project](https://truth-noiseless-degree.glitch.me/)
 
